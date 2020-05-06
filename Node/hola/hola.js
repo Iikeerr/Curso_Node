@@ -1,6 +1,6 @@
 var http = require("http");
 
-var manejador = function(solicitud, respuesta){
+var manejador = function(solicitud, respuesta){d
     console.log("Recibimos respuesta del servidor");
     respuesta.end("Hola mundo");
 };
